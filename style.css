@@ -1,0 +1,150 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#bg{
+	background-color:black;
+}
+
+#foots {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.red{
+    color:red;
+}
+
+#foot{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+	}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+
+#content{
+    min-height: 600px;
+}
+
+#bgimage{
+background-image:url(myrealbg.jpg);
+height:500px;
+ background-color: #cccccc;
+  padding-top:100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align:center;
+  width:100%;
+  display:block;
+}
+
+
+#intro{
+	color:#fff;
+	font-size;
+	background-color:rgba(0,0,0,0.5);
+	margin-left:370px;
+	margin-right:370px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:60px;
+	padding-bottom:60px;
+	position:relative;
+}
+p{
+	padding-bottom:0px;
+	padding-top:0px;
+}
+#button{
+	padding:7px;
+	color:#fff;
+	background-color:red;
+	margin-top:30px;
+	font-weight:bold;
+	border:2px solid red;
+	border-radius:2px;
+}
+
+ul{
+	list-style-type:none;
+	
+}
+
+li a{
+	text-decoration:none;
+	padding:10px;
+	float:right;
+	display:block;
+	color:#fff;
+	margin-right:20px;
+	}
+
+#logo{
+	color:#fff;
+	float:left;
+	}
+#header{
+	background-color:black;
+	border-bottom:1px solid balck;
+	height:40px;
+}
+.thumbnail1{
+	text-align:center;
+	display:inline-block;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-left:120px;
+	border:1px solid gray;
+}
+.thumbnail2{
+	text-align:center;
+	display:inline-block;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right:70px;
+	margin-left:70px;
+	border:1px solid black;
+}
+.thumbnail3{
+	text-align:center;
+	display:inline-block;
+	margin-top:40px;
+	margin-right:100px;
+	margin-bottom:40px;
+	border:1px solid black;
+}
+.title{
+	font-size:32px;
+	<!font-weight:bold;>
+	padding-top:5px;
+	color:black;
+}
+.description{
+	padding:10px;
+	color:gray;
+}
